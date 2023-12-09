@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: black; /* Color de fondo de la barra */
+    overflow: hidden; /* Para que los elementos floten correctamente */
+}
+
+.navbar ul {
+    list-style-type: none; /* Quita los marcadores de lista */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    float: left; /* Coloca los elementos en línea */
+    margin-right: 20px; /* Espacio entre los elementos */
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Cambio de color al pasar el ratón por encima */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.navbar a.current {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Estilos para resaltar la pestaña activa */
+.navbar a:active {
+    background-color: #626464; /* Color de fondo para la pestaña activa */
+}
+
+/* Estilos para resaltar la pestaña actual en cada página */
+.navbar .current {
+    color: white;
+}
+main{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.imgnot{
+    width: 600px;
+}
+img {
+    width: 490px;
+    height: 400px;
+}
+/*fecha en negrita*/
+.fecha{
+    font-weight: 700;
+}
+.caja1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    background-color: gray;
+    padding: 30px; 
+    text-align: center;  
+    margin-top: 10px;    
+}
+.item{
+    width: 50px;
+    height: 50px;
+}
+.datos{
+    float: right;
+    margin-right: 1180px;
+}
+.not{
+    display: flex;
+}
+.not p{
+    margin: 20px;
+}
